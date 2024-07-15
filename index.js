@@ -1,23 +1,28 @@
 // let=10;
 //  let b=20;
 //  alert(a+b);
+
 // let n=10
 // document.write(n*n*n);
+
 // var a=parseInt(prompt("enter  1 no"))
 // var b=parseInt(prompt("enter  2 no"))
 // alert(a+b)
+
 // var a=parseInt(prompt("enter  1 no"))
 // alert(a*a)
+
 // var a=parseInt(prompt("enter  1 no"))
 // alert(a*a*a)
+
 // var a=parseInt(prompt("enter height"))
 // var b=parseInt(prompt("enter base"))
 // alert(1/2*a*b)
-// var num=parseInt(prompt("enter a no"))
+
 
 // if- else
 // --------------------
-
+// var num=parseInt(prompt("enter a no"))
 // if(num>0){
 // alert("positiv")
 // }
@@ -59,6 +64,186 @@
 // if(num%2==0){
 // alert("even"+( num*num))
 // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // else{
 //     alert("odd"+ (num*num*num))
 // }
