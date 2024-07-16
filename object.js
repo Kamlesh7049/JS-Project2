@@ -16,3 +16,7 @@ let emp={id:101,name:"kamlesh",age:25,salary:25000,joing:25/6/2024,PF:26000}
 // console.log(k[0])
 let k=Object.keys(emp)
 console.log(k[0])
+
+
+
+
