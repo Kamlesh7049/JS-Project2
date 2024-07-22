@@ -71,11 +71,38 @@
 // let n=parseInt(prompt("entyer a any no:"))
 // table(n)
 
-// print a no of quib
-function cube(t){
+// print a no of cube 
+// function cube(t){
     
-  console.log(n*n*n)
-}
-let n=parseInt(prompt("entyer a any no:"))
-cube(n)
+//   console.log(n*n*n)
+// }
+// let n=parseInt(prompt("entyer a any no:"))
+// cube(n)
 
+
+
+
+// 1. Arrow Funtion(one line )
+// ------------------------------
+// ()=>{  return.arg} With arg & return
+// let a=10
+// let b=(a)=>{return a*a }
+// // console.log(b)
+// console.log(b(a))
+
+// let n=parseInt(prompt("enter the area of radius"))
+// let b=(n)=>{return 22/7*n*n }
+// // //console.log(b)
+// //// console.log(b(a))
+// console.log(b(n))
+
+// Second Method esme return ki neeed nhi hoti hai
+
+// let a = 90
+// let n=(a)=>(a+a)
+// console.log(n(a))
+
+
+// =(a)=>(a+a)
+// a=>() //if no arg 
+// ()=>()
