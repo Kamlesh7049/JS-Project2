@@ -18,7 +18,7 @@
 
 // funtion demo ()
 // {
-//     caches.l("hello")
+//     c.l("hello")
 // }
 //    demo()
 
@@ -97,6 +97,7 @@
 // console.log(b(n))
 
 // Second Method esme return ki neeed nhi hoti hai
+// ------------------------------------------------------
 
 // let a = 90
 // let n=(a)=>(a+a)
@@ -106,3 +107,4 @@
 // =(a)=>(a+a)
 // a=>() //if no arg 
 // ()=>()
+    
