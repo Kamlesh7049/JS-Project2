@@ -42,7 +42,14 @@
 
 // },2000)
 
-// setTimeout 
+
+
+
+   
+
+// setTimeout  
+
+
 setTimeout(()=>{alert("this working")},2000)
 
 
