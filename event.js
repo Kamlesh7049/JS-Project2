@@ -27,6 +27,7 @@
 //         alert("onmouseleave working")
 //     }
 
+
 // let v = 0;
 // let c = document.getElementById("count");
 
@@ -60,15 +61,19 @@ function click1() {
   v++;
   c.innerHTML = v;
   d.innerHTML = p * v;
-  e.innerHTML=v;
+
+  k++;
+  e.innerHTML=k;
 }
 
 function click2() {
   if (v > 0) {
     v--;
+    k--;
   }
   c.innerHTML = v;
   d.innerHTML = p * v;
+   
 
-  e.innerHTML=v
+  e.innerHTML=k;
 }
