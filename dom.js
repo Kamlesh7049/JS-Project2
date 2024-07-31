@@ -34,7 +34,7 @@
 // heading.innerText="text change"//change  only text in HTML
 
 
-// changing image
+// changing image  
 
 let image=document.getElementById('imge1')
 image.src="img2.jpg"

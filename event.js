@@ -49,31 +49,55 @@
 
 // Task
 
-let v = 0;
-let p = 500;
-let k=0;
+// let v = 0;
+// let p = 500;
+// let k=0;
 
-let c = document.getElementById("count");
-let d = document.getElementById("price");
-let e=document.getElementById('cart');
+// let c = document.getElementById("count");
+// let d = document.getElementById("price");
+// let e=document.getElementById('cart');
 
-function click1() {
-  v++;
-  c.innerHTML = v;
-  d.innerHTML = p * v;
+// function click1() {
+//   v++;
+//   c.innerHTML = v;
+//   d.innerHTML = p * v;
 
-  k++;
-  e.innerHTML=k;
-}
+//   k++;
+//   e.innerHTML=k;
+// }
 
-function click2() {
-  if (v > 0) {
-    v--;
-    k--;
-  }
-  c.innerHTML = v;
-  d.innerHTML = p * v;
+// function click2() {
+//   if (v > 0) {
+//     v--;
+//     k--;
+//   }
+//   c.innerHTML = v;
+//   d.innerHTML = p * v;
    
 
-  e.innerHTML=k;
+//   e.innerHTML=k;
+// }
+
+
+// function fun(){
+//   let img=document.getElementById('change_imge')
+//   img.src="img2.jpg"
+// }
+
+// function fun1(){
+//   let im=document.getElementById('change_imge')
+//   im.src="Randomimg.jpg"
+// }
+
+
+
+
+function fun1(){
+  let para =document.getElementById('show')
+  para.style.display = "block";
+}
+
+function fun2(){
+  let para=document.getElementById('show')
+  para.style.display = "none";
 }

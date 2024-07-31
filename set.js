@@ -50,7 +50,7 @@
 // setTimeout  
 
 
-setTimeout(()=>{alert("this working")},2000)
+// setTimeout(()=>{alert("this working")},2000)
 
 
 
