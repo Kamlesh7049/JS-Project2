@@ -101,9 +101,11 @@
 //   let para=document.getElementById('show')
 //   para.style.display = "none";
 // }
+
+
+
 // js-form validation   html- requred
 function savedata(){
-  // let s=document.getElementById('btn')
   let name=document.getElementById('nm').value 
   let phone=document.getElementById('phn').value 
   let email=document.getElementById('em').value 
