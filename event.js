@@ -27,7 +27,6 @@
 //         alert("onmouseleave working")
 //     }
 
-
 // let v = 0;
 // let c = document.getElementById("count");
 
@@ -41,11 +40,6 @@
 //   }
 //   c.innerHTML = v;
 // }.
-
-
-
-
-
 
 // Task
 
@@ -73,11 +67,9 @@
 //   }
 //   c.innerHTML = v;
 //   d.innerHTML = p * v;
-   
 
 //   e.innerHTML=k;
 // }
-
 
 // function fun(){
 //   let img=document.getElementById('change_imge')
@@ -89,9 +81,6 @@
 //   im.src="Randomimg.jpg"
 // }
 
-
-
-
 // function fun1(){
 //   let para =document.getElementById('show')
 //   para.style.display = "block";
@@ -102,45 +91,72 @@
 //   para.style.display = "none";
 // }
 
-
-
 // js-form validation   html- requred
-function savedata(){
-  let name=document.getElementById('nm').value 
-  let phone=document.getElementById('phn').value 
-  let email=document.getElementById('em').value 
-  let pass=document.getElementById('pss').value 
-  let cpass=document.getElementById('cpss').value 
-  // document.write(name)
-  if(name==""){
-    alert("plese fill name !")
-    document.getElementById('nm').focus()
-    return false;
-    
-  }
-  else if(phone==""){
-    alert("plese fill phone no !")
-    document.getElementById('phn').focus()
-    return false;
-  }
-  else if(email==""){
-    alert("plese fill email !")
-    document.getElementById('em').focus()
-    return false;
-  }
-  else if(pass==""){
-    alert("plese fill pass !")
-    document.getElementById('pass').focus()
-    return false;
-  }
-  else if(cpass==""){
-    alert("plese fill cpass !")
-    document.getElementById('cpass').focus()
-    return false;
-  }
+// function savedata(){
+//   let name=document.getElementById('nm').value
+//   let phone=document.getElementById('phn').value
+//   let email=document.getElementById('em').value
+//   let pass=document.getElementById('pss').value
+//   let cpass=document.getElementById('cpss').value
+//   // document.write(name)
+//   if(name==""){
+//     alert("plese fill name !")
+//     document.getElementById('nm').focus()
+//     return false;
+
+//   }
+//   else if(phone==""){
+//     alert("plese fill phone no !")
+//     document.getElementById('phn').focus()
+//     return false;
+//   }
+//   else if(email==""){
+//     alert("plese fill email !")
+//     document.getElementById('em').focus()
+//     return false;
+//   }
+//   else if(pass==""){
+//     alert("plese fill pass !")
+//     document.getElementById('pass').focus()
+//     return false;
+//   }
+//   else if(cpass==""){
+//     alert("plese fill cpass !")
+//     document.getElementById('cpass').focus()
+//     return false;
+//   }
+
+// }
+
+// function data() {
+//   let a = document.getElementById("num1").value;
+//   let b = document.getElementById("num2").value;
+//   let c = parseInt(a) + parseInt(b);
+//   document.getElementById("answer").innerHTML = c;
+//   return false;
+// }
 
 
-
-
-
+function fun1(){
+  // let a=document.getElementById('a')
+  // a.style.backgroundColor="orange"
+  document.body.style.backgroundColor="orange"
+  
+}
+function fun2(){
+  // let b=document.getElementById('b')
+  // b.style.backgroundColor="blue"
+  document.body.style.backgroundColor="blue"
+  
+}
+function fun3(){
+  // let c=document.getElementById('c')
+  // c.style.backgroundColor="green"
+  document.body.style.backgroundColor="green"
+  
+}
+function fun4(){
+  // let d=document.getElementById('d')
+  // d.style.backgroundColor="red"
+  document.body.style.backgroundColor="red"
 }
