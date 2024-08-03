@@ -92,41 +92,64 @@
 // }
 
 // js-form validation   html- requred
-// function savedata(){
-//   let name=document.getElementById('nm').value
-//   let phone=document.getElementById('phn').value
-//   let email=document.getElementById('em').value
-//   let pass=document.getElementById('pss').value
-//   let cpass=document.getElementById('cpss').value
-//   // document.write(name)
-//   if(name==""){
-//     alert("plese fill name !")
-//     document.getElementById('nm').focus()
-//     return false;
+function savedata() {
+  let name = document.getElementById("nm").value;
+  let age = document.getElementById("ag").value;
+  let phone = document.getElementById("phn").value;
+  let email = document.getElementById("em").value;
+  let pass = document.getElementById("pss").value;
+  let cpass = document.getElementById("cpss").value;
+  // document.write(name)
+  if (name == "") {
+    alert("plese fill name !");
+    document.getElementById("nm").focus();
+    return false;
+  } else if (isNaN(age)) {
+    alert("only Digit");
+    document.getElementById("ag").focus();
+  } else if (isNaN(phone)) {
+    // alert("plese fill phone no only numeric !");
+    alert("only didgit phone section");
+    document.getElementById("phn").focus();
+    return false;
+  } else if (phone.length < 10 || phone.length > 10) {
+    // alert("plese fill phone no only numeric !");
+    alert("only 10 digits");
+    document.getElementById("phn").focus();
+    return false;
+  } else if (email == "") {
+    alert("plese fill email !");
+    document.getElementById("em").focus();
+    return false;
+  } else if (!email.includes("@")) {
+    alert("plese fill email with @!");
+    document.getElementById("em").focus();
+    return false;
+  }
 
-//   }
-//   else if(phone==""){
-//     alert("plese fill phone no !")
-//     document.getElementById('phn').focus()
-//     return false;
-//   }
-//   else if(email==""){
-//     alert("plese fill email !")
-//     document.getElementById('em').focus()
-//     return false;
-//   }
-//   else if(pass==""){
-//     alert("plese fill pass !")
-//     document.getElementById('pass').focus()
-//     return false;
-//   }
-//   else if(cpass==""){
-//     alert("plese fill cpass !")
-//     document.getElementById('cpass').focus()
-//     return false;
-//   }
-
-// }
+  else if (pass == "") {
+    alert("plese fill pass !");
+    document.getElementById("pass").focus();
+    return false;
+  }
+  else if (!(pass.match([/@,#,%,&/]))) {
+    alert("plese fill pass with Symbol !");
+    document.getElementById("pass").focus();
+    return false;
+  }  
+  
+  else if (cpass == "") {
+    alert("plese fill cpass !");
+    document.getElementById("cpass").focus();
+    return false;
+  }
+  
+  else if (pass!==cpass) {
+    alert("your pass not matched !");
+    document.getElementById("cpass").focus();
+    return false;
+  }
+}
 
 // function data() {
 //   let a = document.getElementById("num1").value;
@@ -136,27 +159,26 @@
 //   return false;
 // }
 
+// function fun1(){
+//   // let a=document.getElementById('a')
+//   // a.style.backgroundColor="orange"
+//   document.body.style.backgroundColor="orange"
 
-function fun1(){
-  // let a=document.getElementById('a')
-  // a.style.backgroundColor="orange"
-  document.body.style.backgroundColor="orange"
-  
-}
-function fun2(){
-  // let b=document.getElementById('b')
-  // b.style.backgroundColor="blue"
-  document.body.style.backgroundColor="blue"
-  
-}
-function fun3(){
-  // let c=document.getElementById('c')
-  // c.style.backgroundColor="green"
-  document.body.style.backgroundColor="green"
-  
-}
-function fun4(){
-  // let d=document.getElementById('d')
-  // d.style.backgroundColor="red"
-  document.body.style.backgroundColor="red"
-}
+// }
+// function fun2(){
+//   // let b=document.getElementById('b')
+//   // b.style.backgroundColor="blue"
+//   document.body.style.backgroundColor="blue"
+
+// }
+// function fun3(){
+//   // let c=document.getElementById('c')
+//   // c.style.backgroundColor="green"
+//   document.body.style.backgroundColor="green"
+
+// }
+// function fun4(){
+//   // let d=document.getElementById('d')
+//   // d.style.backgroundColor="red"
+//   document.body.style.backgroundColor="red"
+// }
