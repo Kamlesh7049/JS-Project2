@@ -132,7 +132,7 @@ function savedata() {
     document.getElementById("pass").focus();
     return false;
   }
-  else if (!(pass.match([/@,#,%,&/]))) {
+  else if (!pass.match(/[@#%&]/)) {
     alert("plese fill pass with Symbol !");
     document.getElementById("pass").focus();
     return false;
@@ -149,7 +149,12 @@ function savedata() {
     document.getElementById("cpass").focus();
     return false;
   }
-}
+  else{
+    alert("data is ready ro submit");
+    window.open("Eeventshow.html");
+
+  }
+} 
 
 // function data() {
 //   let a = document.getElementById("num1").value;
