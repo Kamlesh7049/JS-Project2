@@ -91,6 +91,9 @@
 //   para.style.display = "none";
 // }
 
+
+
+
 // js-form validation   html- requred
 function savedata() {
   let name = document.getElementById("nm").value;
@@ -99,7 +102,7 @@ function savedata() {
   let email = document.getElementById("em").value;
   let pass = document.getElementById("pss").value;
   let cpass = document.getElementById("cpss").value;
-  // document.write(name)
+  // console.log(name ,age,phone,email,pass,cpass )
   if (name == "") {
     alert("plese fill name !");
     document.getElementById("nm").focus();
@@ -136,7 +139,7 @@ function savedata() {
     alert("plese fill pass with Symbol !");
     document.getElementById("pass").focus();
     return false;
-  }  
+  }    
   
   else if (cpass == "") {
     alert("plese fill cpass !");
@@ -147,6 +150,9 @@ function savedata() {
   else if (pass!==cpass) {
     alert("your pass not matched !");
     document.getElementById("cpass").focus();
+    //when mismatched the pass then input box empty!
+    document.getElementById('pss').value='';
+    document.getElementById('cpss').value='';
     return false;
   }
   else{
@@ -163,6 +169,9 @@ function savedata() {
 //   document.getElementById("answer").innerHTML = c;
 //   return false;
 // }
+
+
+
 
 // function fun1(){
 //   // let a=document.getElementById('a')
