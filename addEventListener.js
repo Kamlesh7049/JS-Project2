@@ -5,13 +5,13 @@ mybtn.addEventListener("click", function() {
 });
 
 mybtn.addEventListener("mouseenter",data)
-funtion data(){
+function data(){
  document.getElementById("demo2").innerHTML=Math.random();
 
 };
 
 
-mybtn.removeEventListener("click",display);
+// mybtn.removeEventListener("click",display);
 
 
 
