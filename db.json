@@ -1,0 +1,40 @@
+
+
+
+{
+    "student":[
+        {"id":1,"name":"kamlesh","couurse":"fullstack"},
+        {"id":2,"name":"shani","couurse":"fullstack"},
+        {"id":3,"name":"nitin","couurse":"fullstack"}
+    ],
+
+
+
+"ragistration":[
+    {"id":1,
+    "name":"kamlesh shah",
+    "mobile":7049776747,
+    "email":"admin@gmail.com",
+    "password":12345,
+    "cpassword":12345},
+
+    {"id":2,
+    "name":"ankita",
+    "mobile":7049889944,
+    "email":"admin@gmail.com",
+    "password":123456,
+    "cpassword":123456},
+
+    {"id":3,
+    "name":"shani",
+    "mobile":7049334455,
+    "email":"admin@gmail.com",
+    "password":1234567,
+    "cpassword":1234567}
+
+
+]
+
+
+
+}
