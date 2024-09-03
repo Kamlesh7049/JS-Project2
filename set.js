@@ -20,14 +20,14 @@
 // setInterval(()=>{document.write(no++);},2000)
 
 
-// let no=1
-// let fn =setInterval(()=>{
-//     if(no==10){
-//         clearInterval(fn)//BREAK KA WORK KARTA HAI
-//     }
-//     document.write(no++);                          
+let no=1
+let fn =setInterval(()=>{
+    if(no==10){
+        clearInterval(fn)//BREAK KA WORK KARTA HAI
+    }
+    document.write(no++);                          
 
-// },2000)
+},2000)
 
 
 

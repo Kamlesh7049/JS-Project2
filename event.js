@@ -28,7 +28,7 @@
 //     }
 
 // let v = 0;
-// let c = document.getElementById("count");
+// let c = document.getElementById("count");p
 
 // function click1() {
 //   v++;

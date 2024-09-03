@@ -25,13 +25,13 @@
 //     }
 // }
 
-// let heading=document.getElementById('main')
+let heading=document.getElementById('main')
 // // heading.style.backgroundColor="pink";
 // // heading.style.padding="20px";
 
 // heading.style.cssText="background-color:red;color:black;pading:20px";//one line of code for css
 // heading.innerHTML="<u>ORCLE</u>"//change text  in HTML and  elements
-// heading.innerText="text change"//change  only text in HTML
+heading.innerText="text change"//change  only text in HTML
 
 
 // changing image  
