@@ -1,0 +1,31 @@
+{
+    "employees":[
+     {
+      "id":1,
+      "employees":1,
+      "Name":"kamlesh",
+      "salary":25000,
+      "city":"bhopal"
+
+     },
+     {
+        "id":2,
+        "employees":2,
+        "Name":"sani",
+        "salary":5000,
+        "city":"up"
+  
+    },
+    {
+        "id":2,
+        "employees":2,
+        "Name":"anurag",
+        "salary":2000,
+        "city":"rewa"
+  
+       }
+
+
+
+    ]
+}
