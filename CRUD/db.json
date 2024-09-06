@@ -1,25 +1,11 @@
 {
   "employees": [
     {
-      "id": "1",
-      "employeeno": 1,
-      "name": "Kamlesh",
-      "salary": 25000,
-      "city": "Bhopal"
-    },
-    {
-      "id": "2",
-      "employeeno": 2,
+      "employeeno": "2",
       "name": "Sani",
-      "salary": 5000,
-      "city": "UP"
-    },
-    {
-      "id": "3",
-      "employeeno": 3,
-      "name": "Anurag",
-      "salary": 2000,
-      "city": "Rewa"
+      "city": "UP",
+      "salary": "50000",
+      "id": "2"
     },
     {
       "id": "4",
@@ -41,6 +27,13 @@
       "name": "Shyam",
       "city": "Satna",
       "salary": "20000"
+    },
+    {
+      "id": "57a1",
+      "employeeno": "03",
+      "name": "Ajay",
+      "city": "Singrauli",
+      "salary": "25000"
     }
   ]
 }
