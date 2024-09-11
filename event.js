@@ -96,6 +96,7 @@
 
 // js-form validation   html- requred
 function savedata() {
+  // let name = document.getElementById("nm").value;
   let name = document.getElementById("nm").value;
   let age = document.getElementById("ag").value;
   let phone = document.getElementById("phn").value;

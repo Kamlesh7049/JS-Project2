@@ -27,13 +27,6 @@
       "name": "Shyam",
       "city": "Satna",
       "salary": "20000"
-    },
-    {
-      "id": "57a1",
-      "employeeno": "03",
-      "name": "Ajay",
-      "city": "Singrauli",
-      "salary": "25000"
     }
   ]
 }
