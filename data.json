@@ -1,0 +1,10 @@
+
+{
+    "name":"Kamlesh",
+    "age":20,
+    "eliigible":true,
+    "shoping":{"item":1,"brand":"sparky"},
+    "array1":["bhopal",{"id":1,"city":"indore"}]
+}
+//convert object to string  ->jSON.stringfy()
+//convert string to object ->JSON.parse()

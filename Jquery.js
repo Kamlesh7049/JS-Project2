@@ -60,14 +60,15 @@ $(document).ready(function(){
         $(".box3").fadeOut(3000)
     });
     $(".container").click(function(){
-        $(".content").slideDown();
+        $(".content").slideDown(4000);
     });
 
-    $(".container").click(function(){
-        $(".content").slideUp();
-    });
+    // $(".container").click(function(){
+    //     $(".content").slideUp(3000);
+    // });
 
 
 
 });
+
 

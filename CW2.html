@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data</title>
+</head>
+<body>
+
+    <table id="studentTable" border="1">
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <!-- adding new data -->
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        const student = [
+            {
+                "rollno": 121,
+                "name": "Sanju",
+                "city": "Bhopal"
+            },
+            {
+                "rollno": 122,
+                "name": "Aanju",
+                "city": "Indore"
+            },
+            {
+                "rollno": 123,
+                "name": "Ravi",
+                "city": "Jabalpur"
+            }
+        ];
+
+        const tableBody = document.querySelector("#studentTable tbody");
+
+        const rows = student.map(item => `
+            <tr>
+                <td>${item.rollno}</td>
+                <td>${item.name}</td>
+                <td>${item.city}</td>
+            </tr>
+        `).join("");
+
+        tableBody.innerHTML = rows;
+    </script>
+
+</body>
+</html>

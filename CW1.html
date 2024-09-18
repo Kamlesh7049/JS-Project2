@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+        width:300px;
+        padding:30px;
+        border:3px solid lightblue;
+        }
+
+    </style>
+    <script>
+        function show(){
+        let obj=document.createElement("p");
+        obj.innerHTML="Enter Sub:<input type='text'> ";
+        document.getElementById("box").appendChild(obj);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="show()">add</button><br><br>
+    <div id="box">
+        <p>Enter Sub: <input type="text"></p>
+
+    </div>
+
+
+
+    <!-- <script>
+        function show(){
+        
+        }
+    </script> -->
+</body>
+</html>

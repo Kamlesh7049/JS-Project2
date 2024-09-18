@@ -40,14 +40,14 @@
 
 
 // Slice method particular ko lena ho task prform krna ho   
-// let arr=[1,3,4,5,6,7]
-// let s=arr.slice(1,4)
-// console.log(s)
+let arr=[1,3,4,5,6,7]
+let s=arr.slice(1,4)
+console.log(s)
 
 
 // Splice method a particular ko atata hai and add karata hai
-
-let arr=[1,2,3,4,5,6]
+// // 
+// let arr=[1,2,3,4,5,6]
 // arr.splice(index,no of elements)
-arr.splice(2,2,"comm")
-console.log(arr)
+// arr.splice(2,2,"comm")
+// console.log(arr)
